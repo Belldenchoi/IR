@@ -182,6 +182,12 @@ cd C:\Users\503\Downloads\IR-main
 py -3.11 -m uvicorn server:app --host 0.0.0.0 --port 5000
 ```
 
+Mở student server t toàn run python file server.py thôi nên là chạy thế cho nhanh
+
+```powershell
+py -3.11 server.py
+```
+
 Nếu chạy thành công, terminal sẽ hiện dạng:
 
 ```text
