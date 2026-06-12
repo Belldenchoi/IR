@@ -145,8 +145,9 @@ def ask(req: AskRequest):
     start_time = time.time()
 
     try:
-        print("\n========== [ASK RECEIVED] ==========")
         print(f"[ASK] question = {req.question}")
+        print(f"[ASK] note = {req.note}")
+        print(f"[ASK] options = {req.options}")
 
         # Nếu server mới bật lại mà vector_db chưa nằm trong RAM,
         # thử load lại từ thư mục vector_db
